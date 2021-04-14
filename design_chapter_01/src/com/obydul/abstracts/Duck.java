@@ -4,10 +4,18 @@ import com.obydul.interfaces.FlyBehavior;
 import com.obydul.interfaces.QuackBehavior;
 
 public abstract class Duck {
-	FlyBehavior flyBehavior;
-	QuackBehavior quackBehavior;
+	public FlyBehavior flyBehavior;
+	public QuackBehavior quackBehavior;
 
 	public Duck() {
+	}
+
+	public void setFlyBehavior(FlyBehavior fb) {
+		flyBehavior = fb;
+	}
+
+	public void setQuackBehavior(QuackBehavior qb) {
+		quackBehavior = qb;
 	}
 
 	public abstract void display();
