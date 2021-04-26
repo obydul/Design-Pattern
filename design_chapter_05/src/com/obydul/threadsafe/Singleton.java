@@ -12,5 +12,4 @@ public class Singleton {
 		}
 		return uniqueInstance;
 	}
-
 }
