@@ -1,6 +1,5 @@
 package com.obydul.remote;
 
-import com.obydul.party.Command;
 import com.obydul.party.Light;
 
 public class LightOnCommand implements Command{

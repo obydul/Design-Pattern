@@ -1,6 +1,5 @@
 package com.obydul.remote;
 
-import com.obydul.party.Command;
 
 public class CeilingFanOffCommand implements Command {
 	CeilingFan ceilingFan;

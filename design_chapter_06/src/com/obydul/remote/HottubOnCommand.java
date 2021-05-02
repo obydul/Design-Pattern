@@ -1,7 +1,5 @@
 package com.obydul.remote;
 
-import com.obydul.party.Command;
-
 public class HottubOnCommand implements Command{
 	Hottub hottub;
 	

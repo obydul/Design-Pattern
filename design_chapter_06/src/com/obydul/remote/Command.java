@@ -1,6 +1,6 @@
-package com.obydul.party;
+package com.obydul.remote;
 
 public interface Command {
 	public void execute();
-	public void undo();
+
 }

@@ -1,6 +1,6 @@
-package com.obydul.remote;
+package com.obydul.party;
 
-public class StereoOnWithCDCommand implements Command {
+public class StereoOnWithCDCommand implements Command{
 	Stereo stereo;
 	
 	public StereoOnWithCDCommand(Stereo stereo) {
@@ -14,4 +14,8 @@ public class StereoOnWithCDCommand implements Command {
 		stereo.setVolume(11);
 	}
 
+	@Override
+	public void undo() {
+		stereo.off();
+	}
 }
