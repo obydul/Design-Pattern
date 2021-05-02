@@ -1,8 +1,8 @@
 package com.obydul.remote;
 
-import com.obydul.classes.GarageDoor;
-import com.obydul.classes.GarageDoorDownCommand;
-import com.obydul.classes.Light;
+import com.obydul.party.GarageDoor;
+import com.obydul.party.GarageDoorDownCommand;
+import com.obydul.party.Light;
 
 public class RemoteLoader {
 	public static void main(String[] args) {

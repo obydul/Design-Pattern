@@ -1,6 +1,6 @@
 package com.obydul.remote;
 
-import com.obydul.interfaces.Command;
+import com.obydul.party.Command;
 
 public class RemoteControl {
 	Command[] onCommands;

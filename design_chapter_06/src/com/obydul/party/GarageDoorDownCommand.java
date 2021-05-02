@@ -1,6 +1,5 @@
-package com.obydul.classes;
+package com.obydul.party;
 
-import com.obydul.interfaces.Command;
 
 public class GarageDoorDownCommand implements Command {
 	GarageDoor garageDoor;

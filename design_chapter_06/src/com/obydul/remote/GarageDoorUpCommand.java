@@ -1,7 +1,7 @@
 package com.obydul.remote;
 
-import com.obydul.classes.GarageDoor;
-import com.obydul.interfaces.Command;
+import com.obydul.party.Command;
+import com.obydul.party.GarageDoor;
 
 public class GarageDoorUpCommand implements Command {
 	GarageDoor garageDoor;

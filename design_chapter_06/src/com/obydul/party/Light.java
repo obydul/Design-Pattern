@@ -1,4 +1,4 @@
-package com.obydul.classes;
+package com.obydul.party;
 
 public class Light {
 	String location = "";
