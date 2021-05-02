@@ -1,6 +1,6 @@
 package com.obydul.ducks;
 
-public interface Duck {
-	public void quack();
+public interface Turkey {
+	public void gobble();
 	public void fly();
 }
