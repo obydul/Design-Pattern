@@ -8,9 +8,9 @@ public class IteratorEnumerationTestDrive {
 	public static void main(String[] args) {
 		ArrayList l = new ArrayList(Arrays.asList(args));
 		Enumeration enumeration = new IteratorEnumeration(l.iterator());
-		System.out.println("Iterator Enumeration");
+		//System.out.println("Iterator Enumeration");
 		while (enumeration.hasMoreElements()) {
-			System.out.println("test = "+enumeration.nextElement());
+			System.out.println(enumeration.nextElement());
 		}
 	}
 
