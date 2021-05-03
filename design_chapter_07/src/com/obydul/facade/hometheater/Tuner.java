@@ -17,7 +17,7 @@ public class Tuner {
 		System.out.println(description + " off");
 	}
 
-	public void setFrequence(double frequency) {
+	public void setFrequency(double frequency) {
 		System.out.println(description + " setting frequency to " + frequency);
 		this.frequency = frequency;
 	}

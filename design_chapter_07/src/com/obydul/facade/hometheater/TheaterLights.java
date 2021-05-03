@@ -1,9 +1,9 @@
 package com.obydul.facade.hometheater;
 
-public class PopcornPopper {
+public class TheaterLights {
 	String description;
 
-	public PopcornPopper(String description) {
+	public TheaterLights(String description) {
 		this.description = description;
 	}
 
@@ -15,11 +15,12 @@ public class PopcornPopper {
 		System.out.println(description + " off");
 	}
 
-	public void pop() {
-		System.out.println(description + " popping popcorn!");
+	public void dim(int level) {
+		System.out.println(description + " dimming to " + level + "%");
 	}
 
 	public String toString() {
 		return description;
 	}
+
 }
