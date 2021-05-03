@@ -85,5 +85,4 @@ public class HomeTheaterFacade {
 		tuner.off();
 		amp.off();
 	}
-
 }
