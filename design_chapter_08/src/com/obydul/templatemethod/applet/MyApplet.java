@@ -4,6 +4,7 @@ import java.applet.Applet;
 import java.awt.Graphics;
 
 public class MyApplet extends Applet {
+//public class MyApplet extends Applet {
 	String message;
 	
 	public void init(){
@@ -28,5 +29,6 @@ public class MyApplet extends Applet {
 	public void paint(Graphics g){
 		g.drawString(message, 5, 15);
 	}
+	
 
 }
