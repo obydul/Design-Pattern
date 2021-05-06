@@ -1,12 +1,10 @@
 package com.obydul.iterator.dinermerger;
 
-import java.util.Iterator;
-
-public class ArrayIterator implements Iterator {
+public class DinerMenuIterator implements Iterator{
 	MenuItem[] items;
 	int position = 0;
-
-	public ArrayIterator(MenuItem[] items) {
+	
+	public DinerMenuIterator(MenuItem[] items) {
 		this.items = items;
 	}
 
@@ -17,12 +15,13 @@ public class ArrayIterator implements Iterator {
 		return menuItem;
 	}
 
+
 	@Override
 	public boolean hasNext() {
 		if (position >= items.length || items[position] == null) {
 			return false;
+		} else {
+			return true;
 		}
-		return true;
 	}
-
 }
